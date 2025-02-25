@@ -7,7 +7,7 @@ export default function Home() {
         <Elipse></Elipse>
       </div>
       <div className="flex w-[800px] bg-[#F3F4F6]">day</div>
-      <div className="flex w-[800px] bg-[#0F141E]">night</div>
+      <div className="flex w-[800px] bg-[#0F141E]">night2</div>
     </div>
   );
 }
