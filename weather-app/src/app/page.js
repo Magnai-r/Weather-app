@@ -1,4 +1,4 @@
-import { Elipse, InfoCard } from "@/components";
+import { Elipse, InfoCard, SearchEngine } from "@/components";
 const allElipses = [
   "size-[140px]",
   "size-[340px]",
@@ -40,6 +40,9 @@ export default function Home() {
             text={false}
           />
         </div>
+      </div>
+      <div className=" flex absolute pt-10 pl-10">
+        <SearchEngine></SearchEngine>
       </div>
     </div>
   );
