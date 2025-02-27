@@ -2,18 +2,11 @@ import { GrLocation } from "react-icons/gr";
 import { FaRegUser } from "react-icons/fa";
 import { FiHome } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
-export const InfoCard = ({
-  theme,
-  date,
-  city,
-  image,
-  temp,
-  condition,
-  text,
-}) => {
+export const InfoCard = ({ data }) => {
+  const { date, city, theme, image, temp, condition, text } = data;
   return (
     <div
-      className={`relative flex flex-col w-[414px] h-[818px] border backdrop-blur-md rounded-[48px] ${
+      className={`relative flex flex-col w-[414px] h-[818px] border-none backdrop-blur-[12px] rounded-[48px] opacity-75 ${
         theme ? "bg-[#ffffff]" : "bg-[#000]"
       }`}
     >
